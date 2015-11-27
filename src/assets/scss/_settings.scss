@@ -95,7 +95,7 @@
 // Button
 // ------
 
-// $button-padding: 0.85em 1em;
+$button-padding: 0.85em 4em;
 // $button-margin: 0 $global-margin $global-margin 0;
 // $button-fill: solid;
 // $button-background: $primary-color;
@@ -186,7 +186,7 @@
 // $input-color: $dark-gray;
 // $input-font-family: inherit;
 // $input-font-size: rem-calc(16);
-// $input-background: $white;
+$input-background: #fff;
 // $input-background-focus: $white;
 // $input-background-disabled: $light-gray;
 // $input-border: 1px solid $medium-gray;
@@ -203,19 +203,19 @@
 // $global-width: rem-calc(1200);
 // $global-font-size: 100%;
 // $global-lineheight: 1.5;
-// $primary-color: #2199e8;
-// $secondary-color: #777;
-// $success-color: #3adb76;
-// $warning-color: #ffae00;
-// $alert-color: #ec5840;
-// $light-gray: #f3f3f3;
-// $medium-gray: #cacaca;
-// $dark-gray: #8a8a8a;
-// $black: #0a0a0a;
-// $white: #fefefe;
+$primary-color: #445878;
+$secondary-color: #777;
+$success-color: #C9D787;
+$warning-color: #FFB03B;
+$alert-color: #8E2800;
+$light-gray: #BDC7D6;
+$medium-gray: #8C94A1;
+$dark-gray: #31353D;
+$black: #1C1D21;
+$white: #EFEFEF;
 // $body-background: $white;
 // $body-font-color: $black;
-// $body-font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: 'Crimson Text', serif;
 // $body-antialiased: true;
 // $text-direction: ltr;
 // $global-margin: 1rem;
@@ -414,8 +414,8 @@ $topbar-background: transparent;
 // Base Typography
 // ---------------
 
-// $header-font-family: $body-font-family;
-// $header-font-weight: $global-weight-normal;
+$header-font-family: 'Montserrat', Arial, sans-serif;
+$header-font-weight: 700;
 // $header-font-style: normal;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 // $header-sizes: (
